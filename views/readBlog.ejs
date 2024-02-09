@@ -1,0 +1,12 @@
+<%- include("partials/header.ejs") %>
+<div class="container">
+    <article class="blog-post">
+        <h2><%= blog.title %></h2>
+        <p><%= blog.story %></p>
+      </article>
+</div>
+<div class="container buttonContainer">
+    <a class="btn btn-warning blogButtons" href="/updateBlog?title=<%= encodeURIComponent(blog.title) %>" role ="button">Update Blog</a>
+    <a class="btn btn-danger blogButtons" href="/deleteBlog?title=<%= encodeURIComponent(blog.title) %>" role ="button">Delete Blog</a>
+</div>
+<%- include("partials/footer.ejs") %>

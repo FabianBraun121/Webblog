@@ -1,0 +1,37 @@
+h1, h2 {
+    font-weight: bold; /* Make the text bold */
+    margin-top: 20px; /* Add space above */
+    margin-bottom: 20px; /* Add space below */
+  }
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+#blogTitle, #blogEntry {
+    margin-top: 5px; /* Add space above */
+    margin-bottom: 20px; /* Add space below */
+}
+
+label {
+    font-size: 1.3rem;
+}
+  
+.blogButtons {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#Villa-Hopfenplotz-Link {
+    text-align: right;
+    text-decoration: underline;
+}
