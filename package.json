@@ -1,0 +1,24 @@
+{
+  "name": "webblog",
+  "version": "1.0.0",
+  "description": "basic webblog with no storage",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianBraun121/Webblog.git"
+  },
+  "author": "Fabian Braun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabianBraun121/Webblog/issues"
+  },
+  "homepage": "https://github.com/FabianBraun121/Webblog#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

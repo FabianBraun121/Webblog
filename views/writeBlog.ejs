@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs") %>
+<div class="container">
+  <h2>New Blog</h2>
+  <form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="blogTitle">Title</label>
+        <input type="text" class="form-control" id="blogTitle" placeholder="Blog title">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="blogEntry">Blog Entry</label>
+      <textarea class="form-control" id="blogEntry" rows="5" style="resize: vertical;" placeholder="Blog entry"></textarea>
+    </div>
+  </form>
+</div>
+
+
+<%- include("partials/footer.ejs") %>
